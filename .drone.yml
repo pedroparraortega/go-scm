@@ -3,7 +3,7 @@ name: default
 
 workspace:
   base: /go
-  path: src/github.com/drone/go-scm
+  path: src/github.com/pedroparraortega/go-scm
 
 
 steps:
@@ -12,4 +12,4 @@ steps:
   commands:
   - go get github.com/google/go-cmp/cmp
   - go get github.com/h2non/gock
-  - go test -cover github.com/drone/go-scm/scm/...
+  - go test -cover github.com/pedroparraortega/go-scm/scm/...

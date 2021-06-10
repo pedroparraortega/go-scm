@@ -7,7 +7,7 @@ package stash
 import (
 	"context"
 
-	"github.com/drone/go-scm/scm"
+	"github.com/pedroparraortega/go-scm/scm"
 )
 
 type organizationService struct {

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/go-scm/scm"
+	"github.com/pedroparraortega/go-scm/scm"
 )
 
 type linker struct {

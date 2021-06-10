@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/go-scm/scm"
-	"github.com/drone/go-scm/scm/driver/internal/null"
+	"github.com/pedroparraortega/go-scm/scm"
+	"github.com/pedroparraortega/go-scm/scm/driver/internal/null"
 )
 
 type repository struct {
